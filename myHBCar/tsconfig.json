@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "noEmitHelpers": true,
+    "noEmitOnError": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ZYSDK/*": [
+        "./ZYSDK/src/*"
+      ]
+    },
+    // "types": [] //不要进入node_modules中查找类型
+  },
+  "exclude": [
+    "node_modules",
+    "YLSDK"
+  ]
+}

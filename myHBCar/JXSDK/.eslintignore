@@ -1,0 +1,5 @@
+GameConfig.ts
+src/ui/layaMaxUI.ts
+bin/
+bin_test/
+libs

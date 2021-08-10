@@ -1,0 +1,10 @@
+{
+  "code": "import { __awaiter } from \"tslib\";\r\nimport { JXSDK } from \"../../../JXSDK\";\r\nimport { UIMgr } from \"../manager/viewMgr\";\r\nimport LayaUtils from \"../util/LayaUtils\";\r\nimport AbstractBean from \"./AbstractBean\";\r\nexport default class LoadResBean extends AbstractBean {\r\n    constructor() {\r\n        super(\"LoadResBean\");\r\n        this._curProgress = 0;\r\n    }\r\n    start() {\r\n        return __awaiter(this, void 0, void 0, function* () {\r\n            let loadView = UIMgr.onGetRuntime(\"JieXunRes/gameScene/LoadView.json\");\r\n            yield LayaUtils.asyncLoad2DRes(JXSDK.config.load.reses2Load, (pro) => __awaiter(this, void 0, void 0, function* () {\r\n                console.log(\"pro\", pro);\r\n                loadView.barPres.value = pro;\r\n            }));\r\n            loadView.close();\r\n            this.finish();\r\n        });\r\n    }\r\n}\r\n//# sourceMappingURL=LoadResBean.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/JXSDK/src/JXSDK.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/manager/viewMgr.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/util/LayaUtils.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/bean/AbstractBean.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"LoadResBean.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../../../JXSDK/src/jiexun/common/bean/LoadResBean.ts\"],\"names\":[],\"mappings\":\";AACA,OAAO,EAAE,KAAK,EAAE,MAAM,gBAAgB,CAAC;AACvC,OAAO,EAAE,KAAK,EAAE,MAAM,oBAAoB,CAAC;AAC3C,OAAO,SAAS,MAAM,mBAAmB,CAAC;AAC1C,OAAO,YAAY,MAAM,gBAAgB,CAAC;AAO1C,MAAM,CAAC,OAAO,OAAO,WAAY,SAAQ,YAAY;IAEjD;QACI,KAAK,CAAC,aAAa,CAAC,CAAC;QAFjB,iBAAY,GAAG,CAAC,CAAC;IAGzB,CAAC;IACY,KAAK;;YACd,IAAI,QAAQ,GAAG,KAAK,CAAC,YAAY,qCAAoC,CAAC;YACtE,MAAM,SAAS,CAAC,cAAc,CAAC,KAAK,CAAC,MAAM,CAAC,IAAI,CAAC,UAAU,EAAE,CAAO,GAAG,EAAE,EAAE;gBACvE,OAAO,CAAC,GAAG,CAAC,KAAK,EAAC,GAAG,CAAC,CAAA;gBACtB,QAAQ,CAAC,OAAO,CAAC,KAAK,GAAG,GAAG,CAAA;YAChC,CAAC,CAAA,CAAC,CAAA;YACF,QAAQ,CAAC,KAAK,EAAE,CAAA;YAChB,IAAI,CAAC,MAAM,EAAE,CAAC;QAClB,CAAC;KAAA;CACJ\"}"
+}

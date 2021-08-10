@@ -1,0 +1,3 @@
+[submodule "YLSDK_OpenData"]
+	path = YLSDK_OpenData
+	url = http://192.168.8.10:8123/ClientSDK/YLSDK-OpenData.git

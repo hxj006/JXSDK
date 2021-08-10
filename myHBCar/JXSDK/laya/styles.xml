@@ -1,0 +1,39 @@
+<res>
+   <item name="Texture2D/Shop 2.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="Texture2D/1.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="Texture2D/27.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="adver/interB_icon_1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=11,13,13,12" picType="0" scale="0"/>
+   <item name="Texture2D/logo.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="Texture2D/Barre de progression.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="Texture2D/Background Barre progress.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="other/img_hei.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=11,12,14,11" picType="0" scale="0"/>
+   <item name="ui/LoginButtonClean.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,182,0,169" picType="0" scale="0"/>
+   <item name="ui/loding_jindu_diban.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,46,0,153" picType="0" scale="0"/>
+   <item name="ui/loding_jindu_dianliang.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,84,0,93" picType="0" scale="0"/>
+   <item name="ui/goumai_button_jinbi.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,203,0,156" picType="0" scale="0"/>
+   <item name="ui/lb_kg_02.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=58,210,53,174" picType="0" scale="0"/>
+   <item name="ui/kaitong_button_01.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,250,0,235" picType="0" scale="0"/>
+   <item name="ui/zhuye_button_play_03.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,89,0,58" picType="0" scale="0"/>
+   <item name="ui/zhuye_button_play_02.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,64,0,110" picType="0" scale="0"/>
+   <item name="ui/tc_kuang_01.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=201,0,54,0" picType="0" scale="0"/>
+   <item name="other/img_hei_t.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=12,9,16,14" picType="0" scale="0"/>
+   <item name="ui/tc_kuang_02.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=197,0,59,0" picType="0" scale="0"/>
+   <item name="ui/tc_kuang_03.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=218,0,45,0" picType="0" scale="0"/>
+   <item name="ui/goumai_button_tili.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=0,193,0,160" picType="0" scale="0"/>
+   <item name="ui/trial_motor3/home_level1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=9,5,10,5" picType="0" scale="0"/>
+   <item name="ui/trial_motor3/遮罩.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="ui/trial_motor3/new3.png" type="Sprite" compress="0" pack="0" quality="80" props="sizeGrid=27,52,25,48" picType="0" scale="0"/>
+   <item name="other/tipbg.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=23,52,25,42" picType="0" scale="0"/>
+   <item name="DaoChu/texture/load/pro.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/6.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/5.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/1.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/2.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/3.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/Other/4.png" type="Sprite" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu/texture/endView/bg.jpg" type="Sprite" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="GameUI/pk" type="" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="GameUI/prefab" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="GameUI/my1" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="DaoChu" type="" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+</res>

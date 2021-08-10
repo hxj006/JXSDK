@@ -1,0 +1,8 @@
+{
+  "code": "import BaseEventDispatcher from \"../abstract/BaseEventDispatcher\";\r\nexport const JXEventMgr = new BaseEventDispatcher();\r\n//# sourceMappingURL=YLEventMgr.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/abstract/BaseEventDispatcher.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/def/JXEvent.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"YLEventMgr.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../../../JXSDK/src/jiexun/common/manager/YLEventMgr.ts\"],\"names\":[],\"mappings\":\"AAAA,OAAO,mBAAmB,MAAM,iCAAiC,CAAC;AAQlE,MAAM,CAAC,MAAM,UAAU,GAAG,IAAI,mBAAmB,EAAW,CAAC\"}"
+}

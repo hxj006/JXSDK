@@ -1,0 +1,8 @@
+{
+  "code": "import { __awaiter } from \"tslib\";\r\nimport { UIMgr } from \"../manager/viewMgr\";\r\nimport AbstractBean from \"./AbstractBean\";\r\nexport default class InitGameBean extends AbstractBean {\r\n    constructor() {\r\n        super(\"InitGameBean\");\r\n    }\r\n    start() {\r\n        return __awaiter(this, void 0, void 0, function* () {\r\n            UIMgr.asyncOpen(\"JieXunRes/gameScene/homeView.json\");\r\n            this.finish();\r\n        });\r\n    }\r\n}\r\n//# sourceMappingURL=InitGameBean.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/manager/viewMgr.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/bean/AbstractBean.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"InitGameBean.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../../../JXSDK/src/jiexun/common/bean/InitGameBean.ts\"],\"names\":[],\"mappings\":\";AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,oBAAoB,CAAC;AAC3C,OAAO,YAAY,MAAM,gBAAgB,CAAC;AAO1C,MAAM,CAAC,OAAO,OAAO,YAAa,SAAQ,YAAY;IAElD;QACI,KAAK,CAAC,cAAc,CAAC,CAAA;IACzB,CAAC;IACK,KAAK;;YACN,KAAK,CAAC,SAAS,qCAAmB,CAAA;YACnC,IAAI,CAAC,MAAM,EAAE,CAAA;QACjB,CAAC;KAAA;CACJ\"}"
+}

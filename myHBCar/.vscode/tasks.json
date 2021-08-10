@@ -1,0 +1,11 @@
+{
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "layac",
+			"problemMatcher": [],
+			"label": "npm: layac",
+			"detail": "layaair2-cmd compile //layaair2-cmd需要全局安装，跑起来compile.js会有点问题"
+		}
+	]
+}

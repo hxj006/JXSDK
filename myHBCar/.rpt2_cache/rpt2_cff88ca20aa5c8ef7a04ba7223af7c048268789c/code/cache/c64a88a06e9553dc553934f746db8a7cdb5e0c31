@@ -1,0 +1,7 @@
+{
+  "code": "import gameScene3D from \"./scripts/gameScene3D\";\r\nexport default class GameConfig {\r\n    constructor() {\r\n    }\r\n    static init() {\r\n        var reg = Laya.ClassUtils.regClass;\r\n        reg(\"scripts/gameScene3D.ts\", gameScene3D);\r\n    }\r\n}\r\nGameConfig.width = 750;\r\nGameConfig.height = 1334;\r\nGameConfig.scaleMode = \"fixedauto\";\r\nGameConfig.screenMode = \"horizontal\";\r\nGameConfig.alignV = \"top\";\r\nGameConfig.alignH = \"center\";\r\nGameConfig.startScene = \"view/gameScene.scene\";\r\nGameConfig.sceneRoot = \"\";\r\nGameConfig.debug = false;\r\nGameConfig.stat = false;\r\nGameConfig.physicsDebug = false;\r\nGameConfig.exportSceneToJson = true;\r\nGameConfig.init();\r\n//# sourceMappingURL=GameConfig.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/src/scripts/gameScene3D.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"GameConfig.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../src/GameConfig.ts\"],\"names\":[],\"mappings\":\"AACA,OAAO,WAAW,MAAM,uBAAuB,CAAA;AAI/C,MAAM,CAAC,OAAO,OAAO,UAAU;IAa3B;IAAc,CAAC;IACf,MAAM,CAAC,IAAI;QACP,IAAI,GAAG,GAAa,IAAI,CAAC,UAAU,CAAC,QAAQ,CAAC;QAC7C,GAAG,CAAC,wBAAwB,EAAC,WAAW,CAAC,CAAC;IAC9C,CAAC;;AAhBM,gBAAK,GAAQ,GAAG,CAAC;AACjB,iBAAM,GAAQ,IAAI,CAAC;AACnB,oBAAS,GAAQ,WAAW,CAAC;AAC7B,qBAAU,GAAQ,YAAY,CAAC;AAC/B,iBAAM,GAAQ,KAAK,CAAC;AACpB,iBAAM,GAAQ,QAAQ,CAAC;AACvB,qBAAU,GAAK,sBAAsB,CAAC;AACtC,oBAAS,GAAQ,EAAE,CAAC;AACpB,gBAAK,GAAS,KAAK,CAAC;AACpB,eAAI,GAAS,KAAK,CAAC;AACnB,uBAAY,GAAS,KAAK,CAAC;AAC3B,4BAAiB,GAAS,IAAI,CAAC;AAO1C,UAAU,CAAC,IAAI,EAAE,CAAC\"}"
+}

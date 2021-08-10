@@ -1,0 +1,108 @@
+{
+    "copyFilesFilter": [
+        "../bin/**/*.*"
+    ],
+    "openDataZone": false,
+    "compressJson": false,
+    "compressJsonFilter": [
+        "$basePath/**/*.{json,atlas}"
+    ],
+    "compressJsonNoteList": [
+        ""
+    ],
+    "compressImage": false,
+    "compressImageFilter": [
+        "$basePath/**/*.{png,jpg}"
+    ],
+    "compressImageNoteList": [
+        ""
+    ],
+    "compressJs": false,
+    "compressJsFilter": [
+        "$basePath/**/*.js"
+    ],
+    "compressJsNoteList": [
+        ""
+    ],
+    "version": false,
+    "versionFilter": [
+        "$basePath/**/*.*",
+        "!$basePath/*.html",
+        "!$basePath/{version.json,game.js,game.json,project.config.json,weapp-adapter.js,project.swan.json,swan-game-adapter.js,main.js,gameConfig.json,my-adapter.js}",
+        "!$basePath/layaforqq/**/*.*"
+    ],
+    "versionNoteList": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "exclude": false,
+    "excludeFilter": [
+        "!$basePath/res/**/*.*"
+    ],
+    "vexcludeNoteList": [
+        ""
+    ],
+    "packfile": false,
+    "keepPlatformFile": false,
+    "packfileFilter": [
+        ""
+    ],
+    "packfileFullValue": [
+        "$basePath/**/*.*"
+    ],
+    "packfileTargetValue": "",
+    "packfileNoteList": [
+        ""
+    ],
+    "clearReleaseDir": true,
+    "compile": false,
+    "forceCompile": false,
+    "onlyIndexJS": true,
+    "es6toes5": false,
+    "projectType": "ts",
+    "pubTime": 1594458961126,
+    "vivoInfo": {
+        "name": "武士大乱斗",
+        "projName": "quickgame",
+        "package": "com.xjhd.wsdld.vivominigame",
+        "icon": "D:\\workFiles\\游戏开发\\Games\\kanren\\bin\\icon.png",
+        "versionName": "1",
+        "versionCode": 1,
+        "minPlatformVersion": 1073,
+        "orientation": "portrait",
+        "logLevel": "off",
+        "oppoDebug": false,
+        "useReleaseSign": true,
+        "subpack": false
+    },
+    "vivoSign": {
+        "generateSign": false,
+        "countryName": "",
+        "provinceName": "",
+        "localityName": "",
+        "orgName": "",
+        "orgUnitName": "",
+        "commonName": "",
+        "emailAddr": ""
+    },
+    "vivoSubpack": [
+        {
+            "name": "sub1",
+            "root": "res/3d/game/LayaScene_SampleScene/Conventional/Assets//"
+        },
+        {
+            "name": "sub2",
+            "root": "libs//"
+        },
+        {
+            "name": "sub3",
+            "root": "res/atlas//"
+        },
+        {
+            "name": "sub4",
+            "root": "res/sound//"
+        }
+    ]
+}

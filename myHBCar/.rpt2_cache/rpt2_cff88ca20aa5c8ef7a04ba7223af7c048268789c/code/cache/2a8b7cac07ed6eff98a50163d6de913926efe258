@@ -1,0 +1,7 @@
+{
+  "code": "import AbstractRuntimeView from \"../../common/abstract/mvc/AbstractRuntimeView\";\r\nexport default class loading extends AbstractRuntimeView {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onAwake() {\r\n        super.onAwake();\r\n    }\r\n    loadSDKRes() {\r\n    }\r\n}\r\n//# sourceMappingURL=loading.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/abstract/mvc/AbstractRuntimeView.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"loading.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../../../JXSDK/src/jiexun/main/view/loading.ts\"],\"names\":[],\"mappings\":\"AAAA,OAAO,mBAAmB,MAAM,+CAA+C,CAAA;AAQ/E,MAAM,CAAC,OAAO,OAAO,OAAQ,SAAQ,mBAA8B;IAE/D;QACI,KAAK,EAAE,CAAA;IACX,CAAC;IACD,OAAO;QACH,KAAK,CAAC,OAAO,EAAE,CAAA;IACnB,CAAC;IAED,UAAU;IAEV,CAAC;CACJ\"}"
+}

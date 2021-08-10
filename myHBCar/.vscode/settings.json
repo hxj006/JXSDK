@@ -1,0 +1,8 @@
+{
+    "svn.ignoreMissingSvnWarning": true,
+    "files.exclude": {
+        "node_modules": true,
+        "**/*.js.map": false,
+    },
+    "liveServer.settings.port": 5501,
+}

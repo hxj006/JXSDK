@@ -1,0 +1,79 @@
+D .
+D JieXunRes
+D JieXunRes/GameUI
+R 00000000 game.js
+D JieXunRes/loading
+R 95B579BB bg.png
+P D2692380 icon_logo.png
+P 5E7B6B8B load_progress$bar.png
+P AE84412F load_progress.png
+P 8A04A3F3 LOGO.jpg
+D JieXunRes/start
+P A6551DFA Load_bar.png
+P A7520452 Load_barbg.png
+R 4C6F41C4 Load_bg.png
+P CD7CF13B Load_tip.png
+P 93CD550E logo.png
+D JieXunRes/GameUI/GameUI
+P C3CAA8DA box.png
+P 09EEEA3F jdt$bar.png
+P A5F36EF5 jdt.png
+P 2C499406 level1.png
+P 13E98FE1 level2.png
+P 61FF849B level3.png
+P F6E7888E level4.png
+P 421F3601 loading_quanquan.png
+P 0674F6B4 shez.png
+P EF36E502 shez_Base.png
+P 5ADDAD0B sz.png
+P 00E95AE2 yd.png
+P 2068A9C5 yinx-off.png
+P A31B37C8 yinx-on.png
+P 4D209054 ylk-off.png
+P B0C73915 ylk-on.png
+P B99CB557 zs.png
+D JieXunRes/GameUI/home
+P AFF8FD0A bg_mask1.png
+P 9CADCA85 bth-green-1.png
+P E0AE6438 bth-green-2.png
+P 1088AA82 bth-green-shouye.png
+P 103DA9CC bth-red-1.png
+P 3CC0A3E8 bth-red-2.png
+P B9A97176 bth-red-spfh.png
+P 86C5FA0C bth-red-tz.png
+P A9457A05 bth-yellow-lijishiyong.png
+P 5806775F bth-yellow-shiplingqu.png
+P 4C8FA672 bth-yellow-zwyi.png
+P E65148A8 btn-genduoyouxi.png
+P 32F16879 btn_agen.png
+P 49463ADE btn_cancel.png
+P 45955847 btn_collect.png
+P F0D8F0DB btn_figth.png
+P ED2B2709 btn_home.png
+P 8A51802C btn_play.png
+P E416AC8A btn_random_siki.png
+P 256FE3DB btn_rank.png
+P FE1DD331 btn_share_1.png
+P 70F6F75E btn_share_2.png
+P EEC17F07 btn_skip.png
+P B863FF1D btn_skip_1.png
+P DFED49FA btn_sound_off.png
+P CD75566E btn_sound_on.png
+P 8B4192AF btn_svrvice.png
+P B0C08B54 btn_vibrate_off.png
+P FBED832F btn_vibrate_on.png
+P 12968DC4 btn_video_2.png
+P 225DF4A7 collect_hand.png
+P FB899C8F comon-taitou-haoyoutuijian.png
+P 3A007A2D comon-taitou-rementuijian.png
+P 5B6498A1 cserr.png
+P A137FCAD icon_7.png
+P 23C55338 kongzhi-shou.png
+P A9CC480E kuangdian-kuangdian.png
+P 8E4DE0E3 mask_black.png
+P FE442762 mask_listBack.png
+P 55942DD4 mask_listBack1.png
+P D590C4B5 mask_white.png
+P 770A1F39 pic_tishi.png
+R A600E0B2 shuzi1.png
+P 14AAF856 xiayiguan.png

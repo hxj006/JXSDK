@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "composite": true, /* Enable project compilation */
+    "noEmitHelpers": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "YLSDK_OpenData"
+  ]
+}

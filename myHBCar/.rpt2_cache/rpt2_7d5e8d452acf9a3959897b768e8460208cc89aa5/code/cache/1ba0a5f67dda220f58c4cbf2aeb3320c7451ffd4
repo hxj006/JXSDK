@@ -1,0 +1,9 @@
+{
+  "code": "import { UIMgr } from \"../../manager/viewMgr\";\r\nexport default class AbstractRuntimeView extends Laya.View {\r\n    constructor() {\r\n        super();\r\n    }\r\n    onAwake() {\r\n        super.onAwake();\r\n        this.url && UIMgr.onSetRuntime(this.url, this);\r\n        this.onOnce(this.param);\r\n        Laya.stage.on(Laya.Event.RESIZE, this, this.onResize);\r\n    }\r\n    onResize() {\r\n        this.height = Laya.stage.height;\r\n        this.width = Laya.stage.width;\r\n    }\r\n    onOnce(param) { }\r\n}\r\n//# sourceMappingURL=AbstractRuntimeView.js.map",
+  "references": [
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/manager/viewMgr.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/abstract/mvc/AbstractController.ts",
+    "K:/捷讯游戏/myHBCar/JXSDK/src/jiexun/common/abstract/mvc/AbstractModel.ts"
+  ],
+  "map": "{\"version\":3,\"file\":\"AbstractRuntimeView.js\",\"sourceRoot\":\"\",\"sources\":[\"../../../../../../../../JXSDK/src/jiexun/common/abstract/mvc/AbstractRuntimeView.ts\"],\"names\":[],\"mappings\":\"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,uBAAuB,CAAC;AAQ9C,MAAM,CAAC,OAAO,OAAgB,mBAAmF,SAAQ,IAAI,CAAC,IAAI;IAI9H;QACI,KAAK,EAAE,CAAC;IACZ,CAAC;IACM,OAAO;QACV,KAAK,CAAC,OAAO,EAAE,CAAA;QACf,IAAI,CAAC,GAAG,IAAI,KAAK,CAAC,YAAY,CAAC,IAAI,CAAC,GAAG,EAAE,IAAI,CAAC,CAAC;QAC/C,IAAI,CAAC,MAAM,CAAC,IAAI,CAAC,KAAK,CAAC,CAAA;QACvB,IAAI,CAAC,KAAK,CAAC,EAAE,CAAC,IAAI,CAAC,KAAK,CAAC,MAAM,EAAE,IAAI,EAAE,IAAI,CAAC,QAAQ,CAAC,CAAA;IACzD,CAAC;IACO,QAAQ;QACZ,IAAI,CAAC,MAAM,GAAG,IAAI,CAAC,KAAK,CAAC,MAAM,CAAC;QAChC,IAAI,CAAC,KAAK,GAAG,IAAI,CAAC,KAAK,CAAC,KAAK,CAAC;IAClC,CAAC;IAKM,MAAM,CAAC,KAAM,IAAI,CAAC;CAC5B\"}"
+}
